@@ -10,3 +10,4 @@ export default defineConfig({
     host: true,
   }
 });
+console.log('Attempting to start on port:', process.env.PORT || 3001);
