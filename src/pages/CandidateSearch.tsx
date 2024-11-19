@@ -75,11 +75,11 @@ const CandidateSearch = () => {
               html_url={currentCandidate.html_url}
               company={currentCandidate.company}
               bio={currentCandidate.bio} />
-            <div>
-              <button onClick={() => setIndex((prev) => prev + 1)}>
+            <div className="button-container">
+              <button className="button-red" onClick={() => setIndex((prev) => prev + 1)}>
                 <span>-</span>
               </button>
-              <button onClick={() => {
+              <button className="button-green" onClick={() => {
                 if (currentCandidate) {
                   saveCandidate(currentCandidate);
                   setIndex((prev) => prev + 1)

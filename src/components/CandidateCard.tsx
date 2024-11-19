@@ -20,7 +20,7 @@ const CandidateCard = ({ avatar, name, username, location, email, html_url, comp
             </a>
         </figure>
         <article>
-            <h2>{name}({username})</h2>
+            <h2>{name} ({username})</h2>
             <p>Location: {location == null ? 'Not Available' : location}</p>
             <p>Email: {email == null ? 'Not Available' : email}</p>
             <p>Company: {company == null ? 'Not Available' : company}</p>
