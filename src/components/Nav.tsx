@@ -17,7 +17,7 @@ const Nav = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="/PotentialCandidates"
+            to="/SavedCandidates"
             className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
             >
               Potential Candidates
